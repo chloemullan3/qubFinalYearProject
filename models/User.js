@@ -32,8 +32,6 @@ var userSchema = new Schema({
 
   country: { type: String , required: [true, 'Country cannot be left blank.']},
 
-  gender: { type: String , required: [true, 'Gender must be provided']},
-
 });
 
 module.exports = mongoose.model('Users', userSchema);
